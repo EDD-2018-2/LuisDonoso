@@ -68,11 +68,12 @@ def NotacionPolaca(string):
 	print (operators.pop() " ")
 	while numbers.is_empty() == false:
 		if numbers.head == (:
-			print( operator.pop() " ")
+			print( operators.pop() " ")
 		elif numbers.head.next =! (:
-			print( operator.pop() " ")
+			print( operators.pop() " ")
 		else:
 			print( numbers.dequeue() " ")
+	print( "Es igual a: " int(string))
 
 def NotacionPolacaInversa(string):
 	string = string
@@ -91,4 +92,6 @@ def NotacionPolacaInversa(string):
 		elif numbers.head.next =! ):
 			print( numbers.dequeue() " ")
 		elif numbers.head == (:
-			print( operator.dequeue() " ")
+			print( operator.dequeue() " ")			print( operators.dequeue() " ")
+	print( "Es igual a: " int(string))
+	
