@@ -54,9 +54,10 @@ class CircularLinkedList:
 
 	def deleteNode(self, data):
 		aux = self.head 
+		length = len(self)
 		if self.head is None or dele is None:
 			return
-		for i in self: 
+		for i in range(length): 
 			if aux.data == dele:
 				prev = aux.prev
 				aux = aux.next
@@ -80,7 +81,7 @@ class CircularLinkedList:
 		aux = self.head 
 		if self.head is None or data is None:
 			return
-		for i in self.counter: 
+		for i in range(self.counter): 
 			if aux.data == data:
 				aux.value +=1
 				reOrder(self)

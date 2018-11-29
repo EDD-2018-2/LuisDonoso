@@ -92,6 +92,6 @@ def NotacionPolacaInversa(string):
 		elif numbers.head.next =! ):
 			print( numbers.dequeue() " ")
 		elif numbers.head == (:
-			print( operator.dequeue() " ")			print( operators.dequeue() " ")
+			print( operators.dequeue() " ")
 	print( "Es igual a: " int(string))
 	
