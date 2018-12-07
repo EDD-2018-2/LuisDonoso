@@ -55,10 +55,10 @@ class Stack:
 			return aux
 
 def NotacionPolaca(string):
-	string = string
+	length = len(string)
 	operators = Stack()
 	numbers = Queue()
-	for i in string:
+	for i in range(length):
 		if string [i] == + or string [i] == * or string [i] == -:
 			operators.push(string [i])
 
@@ -76,10 +76,10 @@ def NotacionPolaca(string):
 	print( "Es igual a: " int(string))
 
 def NotacionPolacaInversa(string):
-	string = string
+	length = len(string)
 	operators = Queue()
 	numbers = Queue()
-	for i in string:
+	for i in range(length):
 		if string [i] == + or string [i] == * or string [i] == -:
 			operators.push(string [i])
 
@@ -88,7 +88,7 @@ def NotacionPolacaInversa(string):
 	
 	while numbers.is_empty() == false:
 		if numbers.head == (:
-			pass
+			numbers.dequeue()
 		elif numbers.head.next =! ):
 			print( numbers.dequeue() " ")
 		elif numbers.head == (:
