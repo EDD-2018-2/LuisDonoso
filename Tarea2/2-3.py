@@ -1,3 +1,4 @@
+EddActual = BTree()
 print ("Selecciona una opción")
 print ("\t1 - Insertar:")
 print ("\t2 - Buscar:")
