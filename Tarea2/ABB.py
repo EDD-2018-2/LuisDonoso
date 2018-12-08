@@ -1,4 +1,5 @@
-EDDActual = ABB ()
+if EddActuaal is None
+    EDDActual = ABB ()
 print ("Selecciona una opción")
 print ("\t1 - Insertar:")
 print ("\t2 - Buscar:")

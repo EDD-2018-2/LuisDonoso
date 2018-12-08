@@ -1,4 +1,5 @@
-EddActual = AVL()
+if EddActuaal is None
+    EddActual = AVL()
 print ("Selecciona una opción")
 print ("\t1 - Insertar:")
 print ("\t2 - Buscar:")
